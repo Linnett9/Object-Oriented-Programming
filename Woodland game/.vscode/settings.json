@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/bl70/Documents/CS5041-p2/woodland/lib/javax.json-1.1.4.jar"
+    ]
+}

@@ -1,0 +1,59 @@
+First: make a method inside animal that return JSON String like this:
+{
+    "name": "Rabbit",
+    "type": "Animal",
+    "description": "The rabbit has a fluffy ears...",
+    "life": 100,
+    "spells": [
+        {
+            "name": "Detect",
+            "description": "The detect spell allows the ...",
+            "amount": 2
+        }
+    ]
+}
+
+{
+    "name": "Rabbit",
+    "type": "Animal",
+    "description": "The rabbit has a fluffy ears...",
+    "life": 100,
+    "spells": [
+        {
+            "name": "Detect",
+            "description": "The detect spell allows the ...",
+            "amount": 2
+        },
+        {
+            "name": "Charm",
+            "description": "The detect spell allows the ...",
+            "amount": 1
+        },      
+    ]
+}
+
+Second: make a method in Creature that returns JSON String
+{
+    "name": "Deceptive Dragon",
+    "type": "Creature",
+    "shortName": "DD",
+    "description": "The DD is a dragon that practices ...",
+    "attack": 29,
+    "confused": false,
+    "charmed" : [
+        {
+            "animal": "Fox",
+            "turnsLeft": 2
+        }
+    ]
+}
+
+{
+    "name": "Deceptive Dragon",
+    "type": "Creature",
+    "shortName": "DD",
+    "description": "The DD is a dragon that practices ...",
+    "attack": 29,
+    "confused": false,
+    "charmed" : []
+}
